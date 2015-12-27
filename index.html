@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emiel Zuurbier</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Emiel Zuurbier"/>
+        <meta name="description" content="Portfolio van Emiel Zuurbier, Webdesigner"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> 
+        <link rel="stylesheet" href="style/style.css"/>
+    </head>
+
+    <body ng-app="portfolio">
+        <div class="background" ng-controller="mainCtrl">
+        
+            <nav ng-controller="navCtrl">
+                <ul>
+                    <li><a ng-click="playSound()" ng-class="getClass('/home')" href="#/home">Home</a></li>
+                    <li><a ng-click="playSound()" ng-class="getClass('/projects')" href="#/projects">Projects</a></li>
+                    <li><a ng-click="playSound()" ng-class="getClass('/about')" href="#/about">About Me</a></li>
+                    <li><a ng-click="playSound()" ng-class="getClass('/contact')" href="#/contact">Contact</a></li>
+                </ul>
+            </nav>
+            <main ng-view></main>
+        
+        </div>
+        <!-- JQUERY -->
+        <script src="libs/app/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- ANGULAR -->
+        <script src="libs/app/bower_components/bower-angularjs/angular.min.js"></script>
+        <script src="libs/app/bower_components/bower-angularjs/angular-animate.min.js"></script>
+        <script src="libs/app/bower_components/bower-angularjs/angular-route.min.js"></script>
+        <script src="libs/app/bower_components/bower-angularjs/angular-touch.min.js"></script>
+        <!-- GSAP -->
+        <script src="libs/app/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+        <script src="libs/app/bower_components/gsap/src/minified/plugins/TextPlugin.min.js"></script>
+        <script src="libs/app/bower_components/gsap/src/minified/plugins/CSSPlugin.min.js"></script>
+        <script src="libs/app/bower_components/gsap/src/minified/plugins/ColorPropsPlugin.min.js"></script>
+
+        <script src="script/app.js"></script>
+        <script src="script/animate.js"></script>
+        <script src="script/script.js"></script>
+        
+    </body>
+</html>
