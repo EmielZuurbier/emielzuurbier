@@ -14,7 +14,8 @@ GITHUB REPOSITORY:
 
 @font-face {
     font-family: 'Avenir Next';
-    src: '../fonts/Avenir Next.ttc';
+    src: '../fonts/Avenir_Next.otf';
+/*    src: '../fonts/Avenir Next.ttc';*/
 }
 
 
@@ -95,6 +96,8 @@ strong {
     height: 100%;
     position: fixed;
     z-index: 1;
+    -webkit-transform: translateZ(0);
+
 }
 
 main {
@@ -398,6 +401,7 @@ project-single {
     color: #000000;
     text-align: justify;
     padding: 15px;
+    visibility: hidden;
     -webkit-transition: ease-in-out .5s 0s;
     -moz-transition: ease-in-out .5s 0s;
     -ms-transition: ease-in-out .5s 0s;
@@ -408,6 +412,7 @@ project-single {
 
 .project-content.project-content-open {
     bottom: -125px;
+    visibility: visible;
     -webkit-transition: ease-in-out .5s 1.5s;
     -moz-transition: ease-in-out .5s 1.5s;
     -ms-transition: ease-in-out .5s 1.5s;
