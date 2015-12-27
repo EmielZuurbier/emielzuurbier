@@ -150,6 +150,7 @@ nav ul li a {
     -o-transition: .5s;
     transition: .5s;
     opacity: 0.5;
+    -webkit-transform: translateZ(0);
 }
 
 nav ul li a.active {
@@ -169,6 +170,7 @@ nav ul li a:before {
     -ms-transition: ease-in-out .3s;
     -o-transition: ease-in-out .3s;
     transition: ease-in-out .3s;
+    -webkit-transform: translateZ(0);
 }
 
 nav ul li a:hover:before {
@@ -234,6 +236,7 @@ header {
     -ms-transition: ease-in-out .5s .5s;
     -o-transition: ease-in-out .5s .5s;
     transition: ease-in-out .5s .5s;
+    -webkit-transform: translateZ(0);
 }
 
 .projects article.wide {
@@ -242,6 +245,7 @@ header {
     -ms-transition: ease-in-out .5s 1s;
     -o-transition: ease-in-out .5s 1s;
     transition: ease-in-out .5s 1s;
+    -webkit-transform: translateZ(0);
     width: 100% !important;
 }
 
@@ -283,6 +287,7 @@ project-single {
     -ms-transition: ease-in-out .5s 0s;
     -o-transition: ease-in-out .5s 0s;
     transition: ease-in-out .5s 0s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-item.shutter:hover {
@@ -292,6 +297,7 @@ project-single {
     -ms-transition: ease-out .5s .5s;
     -o-transition: ease-out .5s .5s;
     transition: ease-out .5s .5s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-item.shutter::before {
@@ -309,6 +315,7 @@ project-single {
     -ms-transition: ease-out .5s .5s;
     -o-transition: ease-out .5s .5s;
     transition: ease-out .5s .5s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-item.shutter::after {
@@ -326,6 +333,7 @@ project-single {
     -ms-transition: ease-out .5s .5s;
     -o-transition: ease-out .5s .5s;
     transition: ease-out .5s .5s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-item.shutter:hover::before {
@@ -335,6 +343,7 @@ project-single {
     -ms-transition: ease-in-out .5s 0s;
     -o-transition: ease-in-out .5s 0s;
     transition: ease-in-out .5s 0s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-item.shutter:hover::after {
@@ -344,6 +353,7 @@ project-single {
     -ms-transition: ease-in-out .5s 0s;
     -o-transition: ease-in-out .5s 0s;
     transition: ease-in-out .5s 0s;
+    -webkit-transform: translateZ(0);
 }
 
 
@@ -354,6 +364,7 @@ project-single {
     -ms-transition: ease-in-out .5s 1.5s;
     -o-transition: ease-in-out .5s 1.5s;
     transition: ease-in-out .5s 1.5s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-item.shutter.shutter-hide::before {
@@ -391,6 +402,7 @@ project-single {
     -ms-transition: ease-in-out .5s 0s;
     -o-transition: ease-in-out .5s 0s;
     transition: ease-in-out .5s 0s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-content.project-content-open {
@@ -400,6 +412,7 @@ project-single {
     -ms-transition: ease-in-out .5s 1.5s;
     -o-transition: ease-in-out .5s 1.5s;
     transition: ease-in-out .5s 1.5s;
+    -webkit-transform: translateZ(0);
 }
 
 .project-content h4 {
@@ -439,7 +452,7 @@ project-single {
     -ms-transition: ease-in-out .5s 0s;
     -o-transition: ease-in-out .5s 0s;
     transition: ease-in-out .5s 0s;
-    transition: .5s;
+    -webkit-transform: translateZ(0);
 }
 
 .contact a::before {
@@ -451,11 +464,12 @@ project-single {
     background-color: #ffffff;
     left: -50%;
     top: 0;
-    -webkit-transition: ease-in-out .5s 0s;
-    -moz-transition: ease-in-out .5s 0s;
-    -ms-transition: ease-in-out .5s 0s;
-    -o-transition: ease-in-out .5s 0s;
-    transition: ease-in-out .5s 0s;
+    -webkit-transition: ease-in-out .5s .5s;
+    -moz-transition: ease-in-out .5s .5s;
+    -ms-transition: ease-in-out .5s .5s;
+    -o-transition: ease-in-out .5s .5s;
+    transition: ease-in-out .5s .5s;
+    -webkit-transform: translateZ(0);
     z-index: -1;
 }
 
@@ -468,11 +482,12 @@ project-single {
     background-color: #ffffff;
     right: -50%;
     top: 0;
-    -webkit-transition: ease-in-out .5s 0s;
-    -moz-transition: ease-in-out .5s 0s;
-    -ms-transition: ease-in-out .5s 0s;
-    -o-transition: ease-in-out .5s 0s;
-    transition: ease-in-out .5s 0s;
+    -webkit-transition: ease-in-out .5s .5s;
+    -moz-transition: ease-in-out .5s .5s;
+    -ms-transition: ease-in-out .5s .5s;
+    -o-transition: ease-in-out .5s .5s;
+    transition: ease-in-out .5s .5s;
+    -webkit-transform: translateZ(0);
     z-index: -1;
 }
 
@@ -483,25 +498,41 @@ project-single {
 .contact a:hover {
     color: #000000;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    -webkit-transition: ease-in-out .5s .5s;
+    -moz-transition: ease-in-out .5s .5s;
+    -ms-transition: ease-in-out .5s .5s;
+    -o-transition: ease-in-out .5s .5s;
+    transition: ease-in-out .5s .5s;
 }
 
 .contact a:hover::before {
     left: 0;
+    -webkit-transition: ease-in-out .5s 0s;
+    -moz-transition: ease-in-out .5s 0s;
+    -ms-transition: ease-in-out .5s 0s;
+    -o-transition: ease-in-out .5s 0s;
+    transition: ease-in-out .5s 0s;
 }
 
 .contact a:hover::after {
     right: 0;
+    -webkit-transition: ease-in-out .5s 0s;
+    -moz-transition: ease-in-out .5s 0s;
+    -ms-transition: ease-in-out .5s 0s;
+    -o-transition: ease-in-out .5s 0s;
+    transition: ease-in-out .5s 0s;
 }
 
 
 /* ANIMATIONS -------------------------------------------------------------------- */
 
 main.ng-enter, main.ng-leave {
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
+    -webkit-transform: translateZ(0);
 }
 
 main.ng-enter {
@@ -522,11 +553,12 @@ main.ng-leave.ng-leave-active {
 
 header.ng-hide-add, 
 header.ng-hide-remove {
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
+    -webkit-transform: translateZ(0);
 }
 
 header.ng-hide-add {
@@ -559,6 +591,7 @@ header.ng-hide-remove-active {
     -ms-transition: all ease-in-out 0.5s;
     -o-transition: all ease-in-out 0.5s;
     transition: all ease-in-out 0.5s;
+    -webkit-transform: translateZ(0);
 }
 
 .project.ng-leave.ng-leave-active,
@@ -586,6 +619,10 @@ header.ng-hide-remove-active {
 /* MEDIA QUERIES ------------------------------------------------------------------ */
 
 @media screen and (max-width: 768px) {
+    
+    p {
+        font-size: 0.8em;
+    }
     
     .projects {
         flex-direction: column;
