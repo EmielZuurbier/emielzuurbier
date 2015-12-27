@@ -15,11 +15,11 @@ app.config(function ($routeProvider) {
         })
         .when('/about', {
             templateUrl: 'views/about.html',
-            controller: 'aboutCtrl'
+            controller: 'mainCtrl'
         })
         .when('/contact', {
             templateUrl: 'views/contact.html',
-            controller: 'contactCtrl'
+            controller: 'mainCtrl'
         })
         .otherwise({
             redirectTo: '/home'
@@ -83,52 +83,24 @@ app.controller('projectCtrl', ['$scope', function ($scope) {
             id: 1,
             title: "Html",
             src: "media/project1.jpg",
-            content: "HyperText Markup Language"
+            content: "HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications."
         },
         {
             id: 2,
             title: "Css",
             src: "media/project2.jpg",
-            content: "Cascading StyleSheets"
+            content: "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document."
         },
         {
             id: 3,
             title: "Javascript",
             src: "media/project3.jpg",
-            content: "Just ol' regular Javascript"
+            content: "JavaScript (/ˈdʒɑːvəˌskrɪpt/) is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three essential technologies of World Wide Web content production; the majority of websites employ it."
         }
     ];
     
-    
-    $scope.project = $('.project');
-    TweenMax.staggerFrom($scope.project, 0.5, {scale: 0.8, opacity: 0, delay: 1, ease: Power1.easeOut, force3D: true}, 0.4);
-    
 }]);
 
-app.controller('aboutCtrl', ['$scope', function ($scope) {
-    "use strict";
-}]);
-
-app.controller('contactCtrl', ['$scope', function ($scope) {
-    "use strict";
-}]);
-
-//app.directive('projects', function () {
-//    "use strict";
-//    return {
-//        scope: {
-//            info: '='
-//        },
-//        transclude: true,
-//        templateUrl: 'views/project-single.html',
-//        link: function (scope, element, attr) {
-////            scope.select = function ($index) {
-////                console.log($index);
-////                return $index;
-////            };
-//        }
-//    };
-//});
 
 
 
