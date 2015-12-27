@@ -15,6 +15,8 @@ GITHUB REPOSITORY:
 @font-face {
     font-family: 'Avenir Next';
     src: '../fonts/Avenir_Next.otf';
+    src: '../fonts/Avenir_Next.ttf';
+    src: '../fonts/Avenir_Next.woff';
 /*    src: '../fonts/Avenir Next.ttc';*/
 }
 
