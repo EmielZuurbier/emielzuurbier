@@ -1,9 +1,0 @@
-<div class="projects">
-    <article class="project" ng-repeat="project in info | filter: select" track by project.id>
-        <div class="project-container">
-            <div class="project-item" ng-style="{'background-image': 'url( {{ project.src }} )'}">
-                <h4 ng-click="select.id = project.id">{{ project.title }}</h4>
-            </div>
-        </div>
-    </article>
-</div>

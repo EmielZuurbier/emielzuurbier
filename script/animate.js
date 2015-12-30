@@ -34,3 +34,4 @@ function colorize(element) {
         TweenLite.set(element, {background: "linear-gradient(45deg," + colors.top + ", " + colors.bottom + ")"});
     }
 }
+

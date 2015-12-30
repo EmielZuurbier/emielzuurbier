@@ -1,11 +1,11 @@
 <div class="container">
-    <section class="flex">
+    <section class="flex" ng-class="{'flex-open': hide}">
         <header ng-hide="hide">
             <h2>Projects</h2>
             <h3>The things I've made and worked on</h3>
         </header>
         <div class="projects">
-            <article class="project" ng-class="{'wide': hide}" ng-click="projectSelect(project.id)" ng-repeat="project in projects | filter: select">
+            <article class="project" ng-class="{'wide': hide}" ng-click="projectSelect($index)" ng-repeat="project in projects | filter:select" track by $index>
                 <div class="project-container">
                     <div class="project-item shutter" ng-class="{'shutter-hide': hide}" ng-style="{'background-image': 'url( {{ project.src }} )'}">
                         <h4>{{ project.title }}</h4>
