@@ -13,7 +13,7 @@ GITHUB REPOSITORY:
 /* FONTS ------------------------------------------------------------------------- */
 
 @font-face {
-    font-family: 'Avenir Next';
+    font-family: 'Avenir Next', 'Lato';
     src: '../fonts/Avenir_Next.otf';
     src: '../fonts/Avenir_Next.ttf';
     src: '../fonts/Avenir_Next.woff';
@@ -36,7 +36,7 @@ html, body {
 }
 
 body {
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
     background: -webkit-linear-gradient(45deg, #569e65, #e84a4a);
     background: linear-gradient(45deg, #569e65, #e84a4a);
 }
@@ -52,7 +52,7 @@ h1 {
 h1 span {
     font-weight: 100;
     text-transform: uppercase;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
 }
 
 .subtitle {
@@ -62,7 +62,7 @@ h1 span {
     margin: 0;
     font-size: 1.7rem;
     letter-spacing: 2.5px;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
 }
 
 h2 {
@@ -70,14 +70,14 @@ h2 {
     color: #ffffff;
     margin-bottom: 0;
     text-transform: uppercase;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
 }
 
 h3 {
     font-weight: 100;
     color: #ffffff;
     margin-top: 0;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
 }
 
 p {
@@ -86,7 +86,7 @@ p {
     color: #ffffff;
     margin: 0 auto 1em;
     line-height: 1.43333;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
 }
 
 strong {
@@ -154,7 +154,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 100;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
     top: 0;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -206,7 +206,7 @@ nav ul li a:hover:before {
 header {
     position: relative;
     height: 100px;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
 }
 
 .flex {
@@ -413,7 +413,7 @@ header {
     text-align: justify;
     padding: 15px;
     visibility: hidden;
-    font-family: 'Avenir Next', helvetica, arial, sans-serif;
+    font-family: 'Avenir Next', 'Lato', helvetica, arial, sans-serif;
     -webkit-transition: ease-in-out .5s 0s;
     -moz-transition: ease-in-out .5s 0s;
     -ms-transition: ease-in-out .5s 0s;
